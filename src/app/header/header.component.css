@@ -1,0 +1,15 @@
+header .row{
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.26);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.26);
+}
+.logo{
+    max-width: 150px;
+}
+header p{
+    color: #fa3502;
+    text-align: right;
+}

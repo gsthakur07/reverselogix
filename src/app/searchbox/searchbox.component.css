@@ -1,0 +1,36 @@
+.searchbox input{
+    display: inline-block;
+    padding: 10px 50px 10px 20px;
+    border: 1px solid rgba(242,237,237,1);
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(0,142,198,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.2) ;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+    -webkit-transition: all 200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: all 200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: all 200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: all 200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    height: 50px;
+}
+.searchbox {
+    margin-top: -25px;
+    height: 50px;
+}
+.searchbox:after{
+    content: "\f002";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-family: 'FontAwesome';
+    color: #cccccc;
+    right: 25px;
+    left: auto;
+    top: -18px;
+    font-size: 24px;
+}

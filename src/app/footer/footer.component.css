@@ -1,0 +1,18 @@
+footer .row{
+    background-color: #ebebeb
+}
+footer ul{
+    list-style: none;
+    padding: 15px 0px;
+    margin: 0px;
+}
+footer ul li{
+    display: inline-block;
+    margin: 0 15px;
+    color: #807d7d;
+    font-size: 12px;
+}
+footer ul li a{
+    color: #807d7d;
+    font-size: 12px;
+}

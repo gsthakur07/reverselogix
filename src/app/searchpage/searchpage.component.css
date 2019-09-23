@@ -1,0 +1,7 @@
+.no-product{
+    padding: 30px 15px;
+}
+.no-product img{
+    max-width: 100%;
+    opacity: 0.2;
+}
